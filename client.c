@@ -6,7 +6,7 @@
 /*   By: nmallett <nmallett@student.42quebec.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 11:50:23 by nmallett          #+#    #+#             */
-/*   Updated: 2022/04/28 13:51:29 by nmallett         ###   ########.fr       */
+/*   Updated: 2022/04/28 13:57:29 by nmallett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,7 @@ void send_string_as_bits(int pid, char *str)
 }
 
 /*
-*	Our prograin main, check if the required arguments are present or return it
+*	Our program main, check if the required arguments are present or return it
 *	Once we pass the verification, print the client process ID and print the Server process ID that was specified
 *	Create both of our USER Defines signals through our handler and send our string bit by bit.
 */
